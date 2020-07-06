@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7225675812833910652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7225675812833910626}
+  - component: {fileID: 7225675812833910627}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7225675812833910626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7225675812833910652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7225675812833910627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7225675812833910652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4554e26a7aa57794480b1db5fc7dad72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds: []
+  level5sounds:
+  - name: bell
+    clip: {fileID: 8300000, guid: 1481f9d3c3fc6e8429248f97f2e2e5d3, type: 3}
+    volume: 0.4
+    pitch: 1.34
+    source: {fileID: 0}
+    loop: 0
+  - name: bird
+    clip: {fileID: 8300000, guid: 2896f01e4a3014f4e93ef464009686e7, type: 3}
+    volume: 0.4
+    pitch: 1.29
+    source: {fileID: 0}
+    loop: 0
+  level5distractions:
+  - name: sound1
+    clip: {fileID: 8300000, guid: a6021d9b96316c946bfa20bed1ce52f4, type: 3}
+    volume: 0.5
+    pitch: 1.57
+    source: {fileID: 0}
+    loop: 0
+  - name: sound2
+    clip: {fileID: 8300000, guid: bf4aa0f2af014554f9dda39047098e3e, type: 3}
+    volume: 0.5
+    pitch: 1.54
+    source: {fileID: 0}
+    loop: 0
+  - name: sound3
+    clip: {fileID: 8300000, guid: f5ba311257149384aa8030e3b450b2d7, type: 3}
+    volume: 0.5
+    pitch: 1.55
+    source: {fileID: 0}
+    loop: 0
+  - name: sound4
+    clip: {fileID: 8300000, guid: 80e2ec63a24c6184587c26d96328edbe, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 0
+  - name: sound5
+    clip: {fileID: 8300000, guid: 0628bbf1c363b0f4a9b5ed43635fcf3a, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 0
+  - name: sound6
+    clip: {fileID: 8300000, guid: af489d0cf596ab044b70a9f923441c48, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 0
+  level7sounds:
+  - name: chicken
+    clip: {fileID: 8300000, guid: e2acbb6b31015ec43a6b78f5c1a54d47, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 0
+  - name: pigeon
+    clip: {fileID: 8300000, guid: bd726b3135e3e3245884f6652839b9f6, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 0
+  - name: sparrow
+    clip: {fileID: 8300000, guid: 30deb1e2838b0f54bb13f90a4096d818, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 0
+  level7distractions:
+  - name: sound7
+    clip: {fileID: 8300000, guid: d9e70af780ac9e945912582731c37679, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 0
+  - name: sound8
+    clip: {fileID: 8300000, guid: 517bf67591eb8ab44be510826b23d23d, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 0
+  - name: sound9
+    clip: {fileID: 8300000, guid: d1b4534dbb5d42e41a2789682ef77ffa, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 0
+  - name: sound10
+    clip: {fileID: 8300000, guid: 77993073ab561e94a9a28244906c4931, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 0
+  - name: sound11
+    clip: {fileID: 8300000, guid: 92ca86fa43cdc5842941689101d96a68, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 0
+  - name: sound12
+    clip: {fileID: 8300000, guid: 34b35bd5377d63841b92277fe56c0673, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 0
